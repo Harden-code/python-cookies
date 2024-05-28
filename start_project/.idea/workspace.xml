@@ -5,87 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa52559-dc54-42bf-b6ef-ec2b531dd395" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/start_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/calculate.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/quiver.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book1/advance-numpy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book1/numpy-1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book1/numpy-2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book1/numpy-3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book1/pandas-1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book1/pandas-2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book1/pandas-3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book1/pandas-clean.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math_Book2/iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Streamlit/start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/data/mr_fujino.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/hugging.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/langchain/langchain-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/masaic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/ocr.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/openai.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/picture.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/search.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/translate.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/xlt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/zh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/anaconda.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/cookbook/包.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/cookbook/数字与日期.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/cookbook/数据结构.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/cookbook/迭代器.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/dic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/parallel_processes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fluent/wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[102]二叉树的层序遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[144]二叉树的前序遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[2670]找出不同元素数目差数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[2861]最大合金数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[429]N 叉树的层序遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[538]把二叉搜索树转换为累加树.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[589]N 叉树的前序遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[590]N 叉树的后序遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[94]二叉树的中序遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[LCR 045]找树左下角的值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[LCR 149]彩灯装饰记录 I.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[LCR 151]彩灯装饰记录 III.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[LCR 174]寻找二叉搜索树中的目标节点.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/[面试题 04.06]后继者.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[102]二叉树的层序遍历.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[144]二叉树的前序遍历.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[2670]找出不同元素数目差数组.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[2861]最大合金数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[429]N 叉树的层序遍历.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[538]把二叉搜索树转换为累加树.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[589]N 叉树的前序遍历.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[590]N 叉树的后序遍历.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[94]二叉树的中序遍历.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[LCR 045]找树左下角的值.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[LCR 149]彩灯装饰记录 I.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[LCR 151]彩灯装饰记录 III.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[LCR 174]寻找二叉搜索树中的目标节点.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/cn/doc/content/[面试题 04.06]后继者.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/step1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/step1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/step2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode/editor/step3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/numpy_begin.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/runnable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/skiller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/sklearn_api.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/tikt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/calculus.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/matrix.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/vector-calculations.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/char.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/linalg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/norm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/start_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/start_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/openai.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ai/openai.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +46,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -125,7 +55,49 @@
       <recent name="$PROJECT_DIR$/leetcode/leetcode/editor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.parallel_processes">
+  <component name="RunManager" selected="Python.linalg">
+    <configuration name="char" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="start_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/temp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp/char.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linalg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="start_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/temp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp/linalg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="start_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,6 +119,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="norm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="start_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/temp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp/norm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="parallel_processes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="start_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,69 +153,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fluent/parallel_processes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runnable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="start_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/temp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp/runnable.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="skiller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="start_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/temp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp/skiller.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="start_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Streamlit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Streamlit/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,19 +184,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.linalg" />
+      <item itemvalue="Python.char" />
+      <item itemvalue="Python.norm" />
       <item itemvalue="Python.parallel_processes" />
       <item itemvalue="Python.tikt" />
-      <item itemvalue="Python.start" />
-      <item itemvalue="Python.runnable" />
-      <item itemvalue="Python.skiller" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linalg" />
+        <item itemvalue="Python.char" />
+        <item itemvalue="Python.norm" />
         <item itemvalue="Python.parallel_processes" />
         <item itemvalue="Python.tikt" />
-        <item itemvalue="Python.runnable" />
-        <item itemvalue="Python.start" />
-        <item itemvalue="Python.skiller" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +209,14 @@
       <option name="presentableId" value="Default" />
       <updated>1650463017874</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <created>1715927866179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715927866179</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,6 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
