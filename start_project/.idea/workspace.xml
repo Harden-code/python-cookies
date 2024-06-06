@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa52559-dc54-42bf-b6ef-ec2b531dd395" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Math/calculus.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/matrix.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/vector-calculations.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/char.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/linalg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp/norm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/start_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/start_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/openai.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ai/openai.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/generate_q.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/work/Ask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/work/pic.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/work/temp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/char.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/char.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/transplate.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/temp/transplate.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,9 +184,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.linalg" />
       <item itemvalue="Python.char" />
+      <item itemvalue="Python.linalg" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.norm" />
       <item itemvalue="Python.parallel_processes" />
       <item itemvalue="Python.tikt" />

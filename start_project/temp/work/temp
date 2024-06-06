@@ -1,0 +1,164 @@
+
+CREATE TABLE contract (
+  id             BIGINT    NOT NULL    COMMENT '业务主键ID',
+  contract_no    VARCHAR(64)  COMMENT '合同编号',
+  name           VARCHAR(64)  COMMENT '合同名称',
+  service_unit   VARCHAR(64)  COMMENT '服务单位',
+  contract_type  VARCHAR(16)  COMMENT '合同类型(枚举)',
+  start_date     DATE         COMMENT '合同开始日期',
+  end_date       DATE         COMMENT '合同结束日期',
+  service_fee    VARCHAR(16)  COMMENT '合同服务费',
+  big_team       BIGINT       COMMENT '所属大队ID',
+  employee_num   INT          COMMENT '用人数量',
+  vehicle_num    INT          COMMENT '用车数量',
+  status         VARCHAR(16)  COMMENT '状态(枚举)',
+  branch_num     INT          COMMENT '网点数',
+  create_by      VARCHAR(64)  COMMENT '创建人',
+  update_by      VARCHAR(64)  COMMENT '修改人',
+  create_time    DATETIME     COMMENT '创建时间',
+  update_time    DATETIME     COMMENT '修改时间',
+  del_flag       TINYINT  DEFAULT '0'        COMMENT '删除标记，0未删除，1已删除',
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE branchs (
+  id           bigint   NOT NULL  COMMENT '业务主键ID',
+  contract_no  varchar(64)               COMMENT '合同编号',
+  contract_id  bigint                    COMMENT '关联合同ID',
+  name         varchar(255)              COMMENT '网点名称',
+  location     varchar(255)              COMMENT '网点点地名',
+  status       varchar(16)               COMMENT '网点状态(枚举)',
+  lon          varchar(255)              COMMENT '网点经度',
+  lat          varchar(255)              COMMENT '网点纬度',
+  middle_team  bigint                    COMMENT '中队ID',
+  start_date   date                      COMMENT '开始日期',
+  end_date     date                      COMMENT '结束时间',
+  contact      varchar(64)               COMMENT '联系人',
+  tel          varchar(64)               COMMENT '联系电话',
+  create_by    varchar(64)               COMMENT '创建人',
+  update_by    varchar(64)               COMMENT '修改人',
+  create_time  datetime                  COMMENT '创建时间',
+  update_time  datetime                  COMMENT '修改时间',
+  del_flag     TINYINT  DEFAULT '0'                    COMMENT '删除标记，0未删除，1已删除',
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE project (
+  id           BIGINT    NOT NULL     COMMENT '业务主键ID',
+  name         VARCHAR(255) COMMENT '项目名称',
+  type         VARCHAR(16)  COMMENT '项目类型(枚举)',
+  branch_num   INT          COMMENT '项目网点数',
+  emp_num      INT          COMMENT '项目人数',
+  vehicle_num  INT          COMMENT '项目车辆数',
+  middle_team  BIGINT       COMMENT '所属中队ID',
+  status       VARCHAR(16)  COMMENT '状态(枚举)',
+  start_date   DATE         COMMENT '项目开始时期',
+  end_date     DATE         COMMENT '项目结束时期',
+  create_by    VARCHAR(64)  COMMENT '创建人',
+  update_by    VARCHAR(64)  COMMENT '修改人',
+  create_time  DATETIME     COMMENT '创建时间',
+  update_time  DATETIME     COMMENT '修改时间',
+  del_flag     TINYINT  DEFAULT '0'       COMMENT '删除标记，0 未删除，1 已删除',
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE project_branch (
+  id         BIGINT      NOT NULL   COMMENT '业务主键 ID',
+  prject_id  BIGINT                 COMMENT '项目 ID',
+  brnch_id   BIGINT                 COMMENT '网点 ID',
+  crate_by   VARCHAR(64)            COMMENT '创建人',
+  upate_by   VARCHAR(64)            COMMENT '修改人',
+  crate_time DATETIME               COMMENT '创建时间',
+  upate_time DATETIME               COMMENT '修改时间',
+  del_flag   TINYINT  DEFAULT '0'                 COMMENT '删除标记，0 未删除，1 已删除',
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE project_employee (
+    id           BIGINT      NOT NULL        COMMENT '业务主键ID',
+    project_id   BIGINT                      COMMENT '项目ID',
+    work_type    VARCHAR(16)                 COMMENT '人员出勤类型（枚举） [常用 机动]',
+    job_position VARCHAR(16)                 COMMENT '人员岗位（枚举）',
+    user_id      BIGINT                      COMMENT '人员ID',
+    create_by    VARCHAR(64)                 COMMENT '创建人',
+    update_by    VARCHAR(64)                 COMMENT '修改人',
+    create_time  DATETIME                   COMMENT '创建时间',
+    update_time  DATETIME                   COMMENT '修改时间',
+    del_flag     TINYINT  DEFAULT '0'                    COMMENT '删除标记，0 未删除，1 已删除',
+    PRIMARY KEY (id)
+);
+
+
+CREATE TABLE project_vehicle (
+    id           BIGINT        NOT NULL COMMENT '业务主键ID',
+    project_id   BIGINT        COMMENT '项目ID',
+    car_id       BIGINT        COMMENT '车辆ID',
+    create_by    VARCHAR(64)   COMMENT '创建人',
+    update_by    VARCHAR(64)   COMMENT '修改人',
+    create_time  DATETIME      COMMENT '创建时间',
+    update_time  DATETIME      COMMENT '修改时间',
+    del_flag     TINYINT  DEFAULT '0'            COMMENT '删除标记，0 未删除，1 已删除',
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE project_task (
+  id                     BIGINT    NOT NULL      COMMENT '业务主键ID',
+  project_id             BIGINT        COMMENT '项目ID',
+  name                   VARCHAR(64)   COMMENT '任务名称',
+  type                   VARCHAR(64)   COMMENT '任务类型',
+  position               VARCHAR(32)   COMMENT '地点名称',
+  lon                    VARCHAR(16)   COMMENT '经度',
+  lat                    VARCHAR(16)   COMMENT '纬度',
+  finish_condition       VARCHAR(64)   COMMENT '完成条件',
+  task_time              TIME          COMMENT '任务开始时间',
+  project_start_date     DATE          COMMENT '服务开始时间',
+  project_end_date       DATE          COMMENT '服务结束时间',
+  job_positions          VARCHAR(64)   COMMENT '参与角色（校率，数纽）',
+  create_by              VARCHAR(64)   COMMENT '创建人',
+  update_by              VARCHAR(64)   COMMENT '修改人',
+  create_time            DATETIME      COMMENT '创建时间',
+  update_time            DATETIME      COMMENT '修改时间',
+  del_flag               TINYINT  DEFAULT '0'            COMMENT '删除标记, 0未删除, 1已删除',
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE project_route (
+  id            BIGINT       NOT NULL COMMENT '业务主键 ID',
+  project_id    BIGINT                COMMENT '项目 ID',
+  step          INT                   COMMENT '阶段',
+  start_task_id BIGINT                COMMENT '出发点任务 ID',
+  end_task_id   BIGINT                COMMENT '结束点任务 ID',
+  create_by     VARCHAR(64)  NOT NULL COMMENT '创建人',
+  update_by     VARCHAR(64)  NOT NULL COMMENT '修改人',
+  create_time   DATETIME              COMMENT '创建时间',
+  update_time   DATETIME              COMMENT '修改时间',
+  del_flag      TINYINT  DEFAULT '0'                 COMMENT '删除标记，0 未删除，1 已删除',
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE everyday_task (
+  id           BIGINT       NOT NULL   COMMENT '业务主键 ID',
+  name         VARCHAR(64)   COMMENT '任务名称',
+  project_id   BIGINT        COMMENT '项目 ID',
+  middle_team  BIGINT        COMMENT '所属中队 ID',
+  task_date    DATE          COMMENT '任务时间',
+  status       VARCHAR(16)   COMMENT '任务状态',
+  create_by    VARCHAR(64)   COMMENT '创建人',
+  update_by    VARCHAR(64)   COMMENT '修改人',
+  create_time  DATETIME      COMMENT '创建时间',
+  update_time  DATETIME      COMMENT '修改时间',
+  del_flag     TINYINT  DEFAULT '0'            COMMENT '删除标记，0 未删除，1 已删除',
+  PRIMARY KEY (id)
+);
+
+
+
+COMMENT ON TABLE "BGIONECO_ESCORT"."contract" IS '合同表';  
+COMMENT ON TABLE "BGIONECO_ESCORT"."branchs" IS '网点表';  
+COMMENT ON TABLE "BGIONECO_ESCORT"."project" IS '项目表';  
+COMMENT ON TABLE "BGIONECO_ESCORT"."project_branch" IS '项目-网点表';  
+COMMENT ON TABLE "BGIONECO_ESCORT"."project_employee" IS '项目-员工表';  
+COMMENT ON TABLE "BGIONECO_ESCORT"."project_vehicle" IS '项目-车辆表';  
+COMMENT ON TABLE "BGIONECO_ESCORT"."project_task" IS '项目-任务表';  
+COMMENT ON TABLE "BGIONECO_ESCORT"."project_route" IS '项目-路线表';  
+COMMENT ON TABLE "BGIONECO_ESCORT"."everyday_task" IS '每日押运任务';  
